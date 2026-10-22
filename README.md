@@ -1,9 +1,10 @@
 # This tutorial will show you how to upload "subject sets" from the Roman Research Nexus (RRN) to a Zooniverse project using Panoptes
-- [Zooniverse](https://www.zooniverse.org/) is the worlds largest and most widely used platform for hosting people-powered research projects (citizen science)
-- The [Panoptes](https://panoptes-python-client.readthedocs.io/en/latest/index.html) package allows you to manage Zooniverse projects through python
+- The [RRN](https://roman-docs.stsci.edu/data-handbook/roman-research-nexus) is a cloud based environment provided by the Space Telescope Science Institute (STScI) for analyzing data from the Roman Space Telescope. 
+- [Zooniverse](https://www.zooniverse.org/) is the worlds largest and most widely used platform for hosting people-powered research projects (citizen science).
+- The [Panoptes](https://panoptes-python-client.readthedocs.io/en/latest/index.html) package allows you to manage Zooniverse projects through python.
 - A [Subject](https://help.zooniverse.org/getting-started/#subjects) is a unit of data to be classified or analyzed.
 - A [Subject set](https://help.zooniverse.org/getting-started/#subject-sets) is a group of data units (images), along with their metadata ("manifest").  
-- More information on getting started with Zooniverse can be found [here](https://help.zooniverse.org/getting-started/)
+- More information on getting started with Zooniverse can be found [here](https://help.zooniverse.org/getting-started/).
 
 ### In this tutorial, you will learn how to 
 - 📡 connect to Zooniverse from within a python environment on the RRN using Panoptes
@@ -19,7 +20,7 @@ After completing this tutorial, you can then login on the Zooniverse.org side an
 Navigate to [https://www.zooniverse.org/](https://www.zooniverse.org/) and click register in the top right corner to create an account.
 
 ### Access the Roman Research Nexus with a MyST account
-Anyone with a Space Telescope Science Institute (STScI) [MyST account](https://proper.stsci.edu/proper/authentication/auth) can launch a [Roman Research Nexus](https://roman-docs.stsci.edu/data-handbook/roman-research-nexus) session. 
+Anyone with a Space Telescope Science Institute (STScI) [MyST account](https://proper.stsci.edu/proper/authentication/auth) can launch a [Roman Research Nexus](https://roman.science.stsci.edu/hub/) session. 
 
 ### Installing panoptes_client
-The panoptes_client does not come pre-installed on the RRN. To install the panoptes_client package, you will need to [create a new python environment](https://roman.science.stsci.edu/user/ksand017/lab/tree/references/roman_notebooks/markdown/software.md) on your RRN account. Then you can install panoptes by following [these instructions](https://panoptes-python-client.readthedocs.io/en/latest/user_guide.html#installation). You will also need to install pandas, astropy, tqdm, and fastparquet: ```pip install panoptes_client pandas astropy tqdm fastparquet```
+The panoptes_client does not come pre-installed on the RRN. To install the panoptes_client package, you will need to create a new python environment (in the RRN select "Installing Extra Software" from the intro markdown file, or navigate to references/roman_notebooks/markdown/software.md) on your RRN account. Then you can install panoptes by following [these instructions](https://panoptes-python-client.readthedocs.io/en/latest/user_guide.html#installation). You will also need to install pandas, astropy, tqdm, and fastparquet: ```pip install panoptes_client pandas astropy tqdm fastparquet```
