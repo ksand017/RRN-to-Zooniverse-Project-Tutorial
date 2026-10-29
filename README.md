@@ -24,3 +24,5 @@ Anyone with a Space Telescope Science Institute (STScI) [MyST account](https://p
 
 ### Installing panoptes_client
 The panoptes_client does not come pre-installed on the RRN. To install the panoptes_client package, you will need to create a new python environment (in the RRN select "Installing Extra Software" from the intro markdown file, or navigate to references/roman_notebooks/markdown/software.md) on your RRN account. Then you can install panoptes by following [these instructions](https://panoptes-python-client.readthedocs.io/en/latest/user_guide.html#installation). You will also need to install pandas, astropy, tqdm, and fastparquet: ```pip install panoptes_client pandas astropy tqdm fastparquet```
+
+Alternatively, you can setup the new python environment using the provided YAML file. To do this from the terminal, change directory (cd) to the location of the repository contents and run ```kernel-create rrn-2-zooniverse-env rrn-2-zooniverse-specs.yaml "RRN-2-Zooniverse-env"```
