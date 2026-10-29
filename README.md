@@ -22,6 +22,9 @@ Navigate to [https://www.zooniverse.org/](https://www.zooniverse.org/) and click
 ### Access the Roman Research Nexus with a MyST account
 Anyone with a Space Telescope Science Institute (STScI) [MyST account](https://proper.stsci.edu/proper/authentication/auth) can launch a [Roman Research Nexus](https://roman.science.stsci.edu/hub/) session. 
 
+### Download the repository contents
+Download the files of this repository and then upload them to your working directory on the RRN. 
+
 ### Installing panoptes_client
 The panoptes_client does not come pre-installed on the RRN. To install the panoptes_client package, you will need to create a new python environment (in the RRN select "Installing Extra Software" from the intro markdown file, or navigate to references/roman_notebooks/markdown/software.md) on your RRN account. Then you can install panoptes by following [these instructions](https://panoptes-python-client.readthedocs.io/en/latest/user_guide.html#installation). You will also need to install pandas, astropy, tqdm, and fastparquet: ```pip install panoptes_client pandas astropy tqdm fastparquet```
 
